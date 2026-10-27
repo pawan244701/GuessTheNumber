@@ -52,13 +52,24 @@ export const App = () => {
         <div className="play-div">
           <h1>Guess The Num</h1>
           <p>You'll get only 5 attempts to Guess</p>
-          <button onClick={handlePlay}>Play</button>
+          <div>
+            <a href='https://pawan244701.onrender.com/games'>Go Back</a>
+            <button onClick={handlePlay}>Play</button>
+
+          </div>
         </div>
       ) : (
         <div className="second-div">
           <p>{message}</p>
           {isGameOver ? (
-            <button onClick={handlePlay}>Play Again</button>
+            <div>
+              <a
+                href='https://pawan244701.onrender.com/games'
+              >
+                Go Back
+              </a>
+              <button onClick={handlePlay}>Play Again</button>
+            </div>
           ) : (
             <>
               <h3>Attempts left: <strong>{attempts}</strong></h3>
