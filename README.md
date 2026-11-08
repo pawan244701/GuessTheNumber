@@ -30,6 +30,9 @@ To run this project on your local machine:
    ```bash
    git clone https://github.com/pawan244701/GuessTheNumber.git
 
+    # Navigate to dir
+    cd GuessTheNumber
+   
     # Install dependencies
     npm install
 
